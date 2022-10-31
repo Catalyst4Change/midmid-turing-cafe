@@ -1,7 +1,6 @@
 .submit-res {
+  width: 100vw;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  background-color: white;
-  border: 2px solid teal;
+  justify-content: space-evenly;
 }

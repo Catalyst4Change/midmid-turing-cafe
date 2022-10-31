@@ -7,7 +7,20 @@ class App extends Component {
   constructor() {
     super()
     this.state= {
-      reservations: []
+      reservations: [
+        {
+          name: 'Cat',
+          date: 'today',
+          time: '1200',
+          guests: '17'
+        },
+        {
+          name: 'Cat',
+          date: 'today',
+          time: '1200',
+          guests: '17'
+        }
+      ]
     }
   }
 

@@ -1,23 +1,21 @@
 import React from "react";
+import './Reservations.css'
 
 function Reservations ({reservations}) {
-  // reservationsDisplay = (reservations) => {
-  //   return reservations.map(res => {
-  //     const newRes = {
-  //       name: res.name,
-  //       date: res.date,
-  //       time: res.time,
-  //       guests: res.guests
-  //     }
-  //   return res
-  // })}
+  console.log(reservations);
+  return reservations.map(res => {
+    return (
+        <article key={res.name + res.date} className="res">
+          <h3>{res.name}</h3>
+          <h3>{res.date}</h3>
+          <h3>{res.time}</h3>
+          <h3>Number of Guests: {res.guests}</h3>
+          <button>CANCEL</button>
+        </article>
+    )
 
-  return (
-    <article className="res">
-      <h2>test</h2>
-      <h3>{reservations}</h3>
-    </article>
-  )
+  })
+
 }
 
 export default Reservations

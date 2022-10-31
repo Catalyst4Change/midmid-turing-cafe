@@ -1,4 +1,12 @@
 .res {
   background-color: white;
   border: 2px solid teal;
+  padding: 5%;
+  min-width: 100px;
+}
+
+button {
+  background-color: teal;
+  color: white;
+  border-style: none;
 }

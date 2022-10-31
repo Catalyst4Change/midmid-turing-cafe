@@ -34,7 +34,7 @@ class Form extends Component {
     return (
       <form className="submit-res">
         <input type='text' name="name" placeholder="Name" onChange={this.updateRes} value={this.state.name}></input>
-        <input type='text' name="date" placeholder="Date" onChange={this.updateRes} value={this.state.date}></input>
+        <input type='text' name="date" placeholder="Date    MM/DD" onChange={this.updateRes} value={this.state.date}></input>
         <input type='text' name="time" placeholder="Time" onChange={this.updateRes} value={this.state.time}></input>
         <input type='text' name="guests" placeholder="Number of Guests" onChange={this.updateRes} value={this.state.guests}></input>
         <button type='button' onClick={this.submitRes}>SUBMIT</button>
