@@ -8,18 +8,12 @@ class App extends Component {
     super()
     this.state= {
       reservations: [
-        {
-          name: 'Cat',
-          date: 'today',
-          time: '1200',
-          guests: '17'
-        },
-        {
-          name: 'Cat',
-          date: 'today',
-          time: '1200',
-          guests: '17'
-        }
+        // {
+        //   name: 'Cat',
+        //   date: '10/31',
+        //   time: '1200',
+        //   guests: '17'
+        // },
       ]
     }
   }

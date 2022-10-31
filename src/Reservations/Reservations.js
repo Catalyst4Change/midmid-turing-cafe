@@ -5,7 +5,7 @@ function Reservations ({reservations}) {
   console.log(reservations);
   return reservations.map(res => {
     return (
-        <article key={res.name + res.date} className="res">
+        <article key={res.name + res.date} id={res.name + res.guests} className="res">
           <h3>{res.name}</h3>
           <h3>{res.date}</h3>
           <h3>{res.time}</h3>
