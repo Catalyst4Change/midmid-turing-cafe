@@ -36,7 +36,7 @@ Pull down the [API repo](https://github.com/turingschool-examples/turing-cafe-ap
 
 Do *not* nest this inside your front-end repository.
 
-### Iteration 1
+### √  Iteration 1
 
 Get all existing reservations on page load and display them on the DOM.
 
