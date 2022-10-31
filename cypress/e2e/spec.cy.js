@@ -18,6 +18,7 @@ describe('empty spec', () => {
     cy.get('[name="guests"]').type('7')
     cy.get('.submit-res > button').click()
 
-    // cy.get('#Catalyst7').should('be.visible')
+    cy.get('#Catalyst7').should('be.visible')
+    cy.get('#Catalyst7 > :nth-child(1)').should('have.text','Catalyst')
   })
 })
